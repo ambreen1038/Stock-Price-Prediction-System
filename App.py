@@ -5,7 +5,7 @@ import yfinance as yf
 import plotly.express as px
 import plotly.graph_objects as go
 import os
-import joblib now
+import joblib
 from keras.models import load_model
 from sklearn.preprocessing import MinMaxScaler
 from sklearn.metrics import mean_squared_error, mean_absolute_error, r2_score
