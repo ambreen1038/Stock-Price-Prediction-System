@@ -5,7 +5,7 @@ import yfinance as yf
 import plotly.express as px
 import plotly.graph_objects as go
 import os
-import joblib
+import joblib now
 from keras.models import load_model
 from sklearn.preprocessing import MinMaxScaler
 from sklearn.metrics import mean_squared_error, mean_absolute_error, r2_score
@@ -120,7 +120,7 @@ elif page == "Dataset Visualization":
         ax.set_xlabel("Date")
         ax.set_ylabel("Price")
         ax.legend()
-        st.pyplot(fig)0
+        st.pyplot(fig)
 
 # ------------------------------
 # Page 3: Train Model

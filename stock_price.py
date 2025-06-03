@@ -85,7 +85,7 @@ def train_lstm(stock, start, end, save_path):
     return model, scaler
 
 # Run the script independently
-# if _name_ == "_main_":
+# if __name__ == "__main__":
     # stock = "GOOG"
     # start = "2012-01-01"
     # end = "2022-12-21"
